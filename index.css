@@ -1,0 +1,207 @@
+body{
+    margin: 0 auto 0 auto;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    max-width: 1600px;
+}
+img{
+    width: 50%;
+}
+
+.middle {
+    margin: 0 auto 0 auto;
+}
+.container{
+    width: 100%;
+
+    /* position: relative; */
+}
+/* NAV starts here by Alina, Gulfiya, Evgeniia */
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding-top: 30px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 250px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(228, 189, 15);
+
+}
+.left-nav{
+    margin-right: 40px;
+    padding-right:180px;
+    font-weight: normal;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: rgb(228, 189, 15);;
+}
+
+/* HEADER starts here by Alina, Gulfiya, Evgeniia*/
+header{
+    background-image: url(https://www.gentlemansgazette.com/wp-content/uploads/2017/10/Pic_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(https://www.gentlemansgazette.com/wp-content/uploads/2017/10/Pic_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    /* position: relative; */
+    /* line-height: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h3{
+    font-size: 45px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    /* font-style: italic; */
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+header h1{
+    font-size: 90px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+header button{
+    /* background-color: #fed136; */
+    background-color: rgb(228, 189, 15);
+    color: white;
+    padding: 30px 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+header button:hover{
+    background-color: rgb(209, 173, 14);
+}
+
+
+/* SECTION CONTACT starts here */
+#contact{
+    background-image: url("https://wallpaperaccess.com/full/545650.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    padding-top: 20px;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    bottom: 80px;
+}
+.btn input[type="submit"]{
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    background-color: #FED136;
+    border-radius: 10px;
+    border: none;
+}
+.btn input[type="submit"]:hover{
+    background-color: rgb(241, 241, 59);
+    cursor: pointer;
+}
+form{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-left input{
+    display: flex;
+    padding: 27px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+.input-left{
+    flex-basis: 37%;
+}
+.input-right{
+    flex-basis: 37%;
+    margin-left: 75px;
+
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    padding: 17px;
+}
+.contact-texts{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-texts h1{
+    margin-bottom: 0;
+}
+.contact-texts p{
+    margin-top: 10px;
+    color: lightgrey;
+    font-size: 20px;
+}
+/* portfolio */
+
+/* services */
+.service-boxes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    grid-gap: 30px;
+    text-align: center;
+    width: 769px;
+
+}
+.service-boxes p{
+    font-size: 13px;
+    line-height: 25px;
+    color: grey;
+}
+.servicetexts{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.servicetexts p{
+    margin-bottom: 60px;
+
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /*font-family: italic;*/
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
